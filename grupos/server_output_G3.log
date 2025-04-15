@@ -1,0 +1,12 @@
+Servidor FTCP rodando. Pressione Ctrl+C para encerrar.[TCP] Servidor ouvindo na porta 30002
+
+[UDP] Servidor ouvindo na porta 30001
+[UDP] Recebido de ('127.0.0.1', 46518): REQUEST,TCP,a.txt
+[UDP] Enviado para ('127.0.0.1', 46518): RESPONSE,TCP,30002,a.txt[TCP] Conexão estabelecida com ('127.0.0.1', 48880)
+
+[TCP] ACK recebido: ftcp_ack,21
+[TCP] Conexão encerrada com ('127.0.0.1', 48880)
+[UDP] Recebido de ('127.0.0.1', 42702): REQUEST,TCP,b.txt
+[UDP] Enviado para ('127.0.0.1', 42702): RESPONSE,TCP,30002,b.txt[TCP] Conexão estabelecida com ('127.0.0.1', 48894)
+
+[TCP] ACK recebido: ftcp_ack,9246

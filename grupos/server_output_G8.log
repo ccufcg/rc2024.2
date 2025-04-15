@@ -1,0 +1,12 @@
+UDP server listening on port 30001TCP server escutando na porta 30002
+
+UDP Received from ('127.0.0.1', 45449): REQUEST,TCP,a.txt
+TCP Client conectado com ('127.0.0.1', 56526)
+TCP recebido com ('127.0.0.1', 56526): get,a.txt
+TCP recebido com ('127.0.0.1', 56526): ftcp_ack,118
+TCP Client desconectado com ('127.0.0.1', 56526)
+UDP Received from ('127.0.0.1', 35406): REQUEST,TCP,b.txt
+TCP Client conectado com ('127.0.0.1', 52592)
+TCP recebido com ('127.0.0.1', 52592): get,b.txt
+TCP recebido com ('127.0.0.1', 52592): ftcp_ack,5007
+TCP Client desconectado com ('127.0.0.1', 52592)

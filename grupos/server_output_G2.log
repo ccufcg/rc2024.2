@@ -1,0 +1,15 @@
+Servidor TCP ouvindo na porta 30002
+Servidor UDP ouvindo na porta 30001
+Servidor rodando. Pressione Ctrl+C para encerrar.
+UDP recebido: REQUEST,TCP,a.txt
+Porta enviadaCliente TCP conectado em: ('127.0.0.1', 47170)
+
+Arquivo a.txt enviado
+ACK recevido: ['ftcp_ack', '10']
+Cliente TCP desconectado em: ('127.0.0.1', 47170)
+UDP recebido: REQUEST,TCP,b.txt
+Porta enviada
+Cliente TCP conectado em: ('127.0.0.1', 47178)
+Arquivo b.txt enviado
+ACK recevido: ['ftcp_ack', '5312']
+Cliente TCP desconectado em: ('127.0.0.1', 47178)

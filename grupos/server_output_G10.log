@@ -1,0 +1,13 @@
+[UDP] Servidor escutando na porta 30001...
+[UDP] Mensagem recebida: REQUEST,TCP,a.txt
+[TCP] Aguardando conexão na porta 30002...
+[TCP] Conectado por ('127.0.0.1', 52776)
+[TCP] Arquivo 'a.txt' enviado.
+[TCP] Cliente confirmou recebimento.
+
+[UDP] Mensagem recebida: REQUEST,TCP,b.txt
+[TCP] Aguardando conexão na porta 30002...
+[TCP] Conectado por ('127.0.0.1', 46370)
+[TCP] Arquivo 'b.txt' enviado.
+[TCP] Cliente confirmou recebimento.
+
