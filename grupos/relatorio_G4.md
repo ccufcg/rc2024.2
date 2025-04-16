@@ -57,8 +57,21 @@ O protocolo implementado pelo grupo pode ser utilizado pelo cliente de referênc
 - ✅ Encerra a conexão TCP com os parametros corretos
 
 
-O grupo atendeu a todas as especificações do protocolo.
+O grupo atendeu a quase todas as especificações do protocolo.
 
 
-> ❌ O grupo disponibilizou dois arquivos com o mesmo tamanho (9 bytes), é importante lembrar que na especificação do trabalho o b.txt tem um tamanho minnimo. 
+❌ O servidor `servidor_ftcp.py` não utilize o arquivo de configuração (`config.ini`). Manteve o parametro hardcoded 
+
+```json
+CONFIG = {
+    "TCP_PORT": 5001,
+    "UDP_PORT": 5002,  
+    "UDP_TRANSFER_PORT": 5003,  
+    "FILE_A": "a.txt",
+    "FILE_B": "b.txt"
+}
+```
+
+
+> O grupo disponibilizou dois arquivos com o mesmo tamanho (9 bytes), é importante lembrar que na especificação do trabalho o b.txt tem um tamanho minnimo. 
 > - Nessa etapa este fato não tem impacto na nota, mas para o relatorio é importante corrigir e enviar o .pcap correto.
