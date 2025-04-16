@@ -49,3 +49,14 @@ Fim
 Servidor encerrado.
 
 ## Comentarios
+
+O protocolo implementado pelo grupo pode ser utilizado pelo cliente de referência e foi capaz de ;
+
+- ✅ Realiza a etapa de neogociação
+- ❌ Transfere os arquivos via TCP
+- ✅ Encerra a conexão TCP com os parametros corretos
+
+
+A principio não executou todas as tarefas. **Contudo a resposta do encerramento indica que o arquivo foi transferido corretamente**. Vou executar manualmente. Mas acredito que o servidor esteja sendo transferindo.
+
+> Os arquivos não encontrados não chegou a ser um problema. Trata-se apenas que os arquivos não estavam no local esperados (não a desconto de pontuação)

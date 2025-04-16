@@ -49,3 +49,13 @@ Fim
 Servidor encerrado.
 
 ## Comentarios
+
+O protocolo implementado pelo grupo pode ser utilizado pelo cliente de referência e foi capaz de ;
+
+- ✅ Realiza a etapa de neogociação
+- ✅ Transfere os arquivos via TCP
+- ✅ Encerra a conexão TCP com os parametros corretos
+
+O Grupo utilizou um parametro não especificado no *config.ini*. Mas tal fato não teve impacto na nota. Parte desses parametros foram utilizados para implementar um range de portas
+
+O grupo atendeu a todas as especificações do protocolo.
