@@ -1,0 +1,7 @@
+[2025-04-15 19:57:02] [INFO] Servidor FTCP iniciado
+[2025-04-15 19:57:02] [INFO] Servidor UDP ligado em :30001
+[2025-04-15 19:57:07] [DEBUG] Ouvindo nova conexão
+[2025-04-15 19:57:07] [INFO] Enviando resposta de negociação para ('127.0.0.1', 53940)
+[2025-04-15 19:57:07] [INFO] Esperando conexão TCP...
+[2025-04-15 19:57:07] [INFO] Cliente TCP conectado de ('127.0.0.1', 46840)
+[2025-04-15 19:57:07] [INFO] Arquivo 'b.txt' enviado com sucesso

@@ -1,0 +1,9 @@
+[SERVER] Listening via UDP on port 30001
+[SERVER] Received via UDP from ('127.0.0.1', 43513): REQUEST,TCP,a.txt
+[SERVER] TCP Client connected from ('127.0.0.1', 44618)
+[SERVER] File sent to ('127.0.0.1', 44618).
+[SERVER] TCP Client disconnected from ('127.0.0.1', 44618)
+[SERVER] Received via UDP from ('127.0.0.1', 39847): REQUEST,TCP,b.txt
+[SERVER] TCP Client connected from ('127.0.0.1', 44624)
+[SERVER] File sent to ('127.0.0.1', 44624).
+[SERVER] TCP Client disconnected from ('127.0.0.1', 44624)

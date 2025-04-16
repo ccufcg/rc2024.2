@@ -1,0 +1,15 @@
+UDP server listening on port 30001TCP server listening on port 30002
+Servidor rodando. Pressione Ctrl+C para encerrar.
+
+UDP Received from ('127.0.0.1', 44615): REQUEST,TCP,a.txt
+TCP Client connected from ('127.0.0.1', 39336)
+TCP Received from ('127.0.0.1', 39336): get,a.txt
+Sent file a.txt (26 bytes) to ('127.0.0.1', 39336)
+Received ACK from ('127.0.0.1', 39336): ftcp_ack,26
+Client confirmed receipt of 26 bytes
+TCP Client disconnected from ('127.0.0.1', 39336)
+UDP Received from ('127.0.0.1', 44903): REQUEST,TCP,b.txt
+TCP Client connected from ('127.0.0.1', 39338)
+TCP Received from ('127.0.0.1', 39338): get,b.txt
+Sent file b.txt (9062 bytes) to ('127.0.0.1', 39338)
+Received ACK from ('127.0.0.1', 39338): ftcp_ack,9062

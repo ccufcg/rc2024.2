@@ -1,0 +1,34 @@
+Servidor TCP escutando na porta 30002Servidor de negociação UDP escutando na porta 30001Exception in thread 
+Servidor FTCP rodando. Pressione Ctrl+C para encerrar.
+Thread-3 (udp_transfer_server)
+:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Mensagem recebida do UDP: REQUEST,TCP,a.txt de ('127.0.0.1', 59632)
+    self.run()Cliente TCP conectado de ('127.0.0.1', 57110)
+
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+Mensagem recebida do TCP: get,a.txt de ('127.0.0.1', 57110)
+    self._target(*self._args, **self._kwargs)
+  File "/mnt/d/workspace_lecture_tmp/rc2024.2/grupos/G4/servidor_ftcp.py", line 99, in udp_transfer_server
+Segmento enviado, aguardando ACK...
+    udp_sock.bind(('0.0.0.0', CONFIG["UDP_TRANSFER_PORT"]))  
+OSError: [Errno 98] Address already in use
+ACK não recebido. Reenviando o segmento.
+Cliente TCP desconectado de ('127.0.0.1', 57110)
+Exception in thread Thread-4 (handle_tcp_transfer):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()Mensagem recebida do UDP: REQUEST,TCP,b.txt de ('127.0.0.1', 34911)
+
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+Cliente TCP conectado de ('127.0.0.1', 38186)    
+Mensagem recebida do TCP: get,b.txt de ('127.0.0.1', 38186)self._target(*self._args, **self._kwargs)
+
+  File "/mnt/d/workspace_lecture_tmp/rc2024.2/grupos/G4/servidor_ftcp.py", line 66, in handle_tcp_transfer
+    Segmento enviado, aguardando ACK...
+send_file_with_ack(conn, file_path)
+  File "/mnt/d/workspace_lecture_tmp/rc2024.2/grupos/G4/servidor_ftcp.py", line 20, in send_file_with_ack
+    conn.sendall(b"END")  
+BrokenPipeError: [Errno 32] Broken pipe
+ACK não recebido. Reenviando o segmento.

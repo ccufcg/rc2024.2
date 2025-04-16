@@ -1,0 +1,6 @@
+Servidor configurado com TCP_PORT_START=30002, TCP_PORT_END=30002 e UDP_PORT=30001
+[UDP] Servidor escutando na porta 30001
+[UDP] Mensagem recebida de ('127.0.0.1', 51485): REQUEST,TCP,a.txt
+[UDP] Resposta enviada para ('127.0.0.1', 51485): Formato de mensagem inválido (too many values to unpack (expected 2))
+[UDP] Mensagem recebida de ('127.0.0.1', 37416): REQUEST,TCP,b.txt
+[UDP] Resposta enviada para ('127.0.0.1', 37416): Formato de mensagem inválido (too many values to unpack (expected 2))

@@ -1,0 +1,23 @@
+[UDP] Servidor ouvindo na porta 30001...
+[TCP] Servidor ouvindo na porta 30002...
+SERVIDOR RODANDO
+[UDP] Recebido de ('127.0.0.1', 36631): REQUEST,TCP,a.txt
+[UDP] Enviado: RESPONSE,TCP,30002,a.txt para ('127.0.0.1', 36631)
+[TCP] Conexão estabelecida com ('127.0.0.1', 38472)
+[TCP] Comando recebido: get,a.txt de ('127.0.0.1', 38472)
+[TCP] 12 dados enviados para ('127.0.0.1', 38472)
+[TCP] Enviado 12 bytes para ('127.0.0.1', 38472)
+[TCP] ACK recebido do cliente ('127.0.0.1', 38472): ftcp_ack,12
+[TCP] Conexão encerrada com o cliente ('127.0.0.1', 38472)
+[UDP] Recebido de ('127.0.0.1', 58292): REQUEST,TCP,b.txt
+[UDP] Enviado: RESPONSE,TCP,30002,b.txt para ('127.0.0.1', 58292)
+[TCP] Conexão estabelecida com ('127.0.0.1', 38484)
+[TCP] Comando recebido: get,b.txt de ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 1024 dados enviados para ('127.0.0.1', 38484)
+[TCP] 467 dados enviados para ('127.0.0.1', 38484)
+[TCP] Enviado 6611 bytes para ('127.0.0.1', 38484)

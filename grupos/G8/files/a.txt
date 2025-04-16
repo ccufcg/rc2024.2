@@ -1,0 +1,1 @@
+Olá, esse é o texto para o arquivo "a.txt" que iremos utilizar para fazer a comunicação entre servidor e cliente.

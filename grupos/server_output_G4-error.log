@@ -1,0 +1,4 @@
+Servidor de negociação UDP escutando na porta 5002Servidor de transferência UDP escutando na porta 5003
+Servidor FTCP rodando. Pressione Ctrl+C para encerrar.
+
+Servidor TCP escutando na porta 5001
