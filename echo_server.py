@@ -19,7 +19,7 @@ def handle_tcp_client(conn, addr):
         while True:
             data = conn.recv(1024)
             if not data:
-                break
+                break #perguntar do break
             print(f"TCP Received from {addr}: {data.decode('utf-8')}")
             # Echo back the data
             conn.sendall(data)
